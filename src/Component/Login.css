@@ -1,0 +1,61 @@
+.login{
+    background-color: aliceblue;
+    height: 100vh;
+    padding: 50px;
+}
+.container{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    margin: auto;
+    padding: 50px 30px;
+}
+.section h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.section input{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.checkbox-container{
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+
+}
+.checkbox span{
+    color: burlywood;
+    font-weight: 600;
+}
+.change-password-btn p{
+    color: burlywood;
+    font-weight: 600;
+}
+.section button{
+    margin-top: 12px;
+    height: 32px;
+    width: 350px;
+    margin-inline: auto;
+    background: #008CBA;
+    color: #fff;
+    border-radius: 1px;
+    border: none;
+    font-weight: 600;
+}
+.section p{
+    margin-inline: auto;
+}
+.section p span{
+    color: burlywood;
+    font-weight: 600;
+}
